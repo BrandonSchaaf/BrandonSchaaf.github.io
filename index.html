@@ -32,15 +32,11 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        TOP
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#page-top">Top</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
@@ -58,16 +54,19 @@
     <header class="masthead">
       <div class="header-content">
         <div class="header-content-inner">
+          <div id="card">
           <div class="info-card">
             <div class="front">
-              <img class="card-image" src="img/cardfront.png"></div>
+              <img class="card-image" src="img/cardfront2.png"></div>
             <div class="back">
-              <img class="card-image" src="img/cardback.png"></div>
+              <img class="card-image" src="img/cardback2.png"></div>
           </div>
           <br>
-          <a class="btn btn-primary btn-xl">Flip</a>
           <br>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Arrow Down</a>
+          <br>
+          <a href="#about" class="btn btn-primary btn-xl js-scroll-trigger arrow" >
+          ▼
+          </a>
         </div>
       </div>
     </header>
@@ -77,24 +76,32 @@
         <div class="row">
           <h1 class="headText col-md-6 col-sm-12"><b>ABOUT</b></h1>
         </div>
-        <div class="row col-md-offset-6">
+        <div class="row">
           <div class="imgBox">
             <img class="imgFill" src="img/kid.jpg">
           </div>
-        </div>
-<!--           <div class ="col-md-2 col-md-offset-3">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div> -->
+            <div class ="col-md-7 mx-auto">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+              <p class="col-md-4 quote">"I don't know anyone more skilled at translating ideas to reality than Brandon Schaaf. Bearing witness to his enthusiasm, determination, and artistic prowess helps me unearth creative energies I'd otherwise never discover. And you can quote me on that."
+              <br>
+              - Ryan E. Felton, copywriter, <i>Salesforce</i>
+              </p>
+          </div>
         <div class="row">
-        <p class="col-md-4 mx-5 my-4 quote">"I don't know anyone more skilled at translating ideas to reality than Brandon Schaaf. Bearing witness to his enthusiasm, determination, and artistic prowess helps me unearth creative energies I'd otherwise never discover. And you can quote me on that."
-        <br>
-        - Ryan E. Felton, writer
-        </p>
         </div>
       </div>
     </section>
@@ -102,58 +109,89 @@
     <section class="pt-0" id="portfolio">
       <div class="container">
         <div class="row">
-            <h1 class="headText col-md-6 col-sm-12"><b>PORTFOLIO</b></h1>
+            <h1 class="headText col-md-6 col-sm-12 pb-5"><b>PORTFOLIO</b></h1>
         </div>
 
-        <div class="row popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="https://codepen.io/brandonschaaf/pen/zdPZrK">
+        <div class="row gallery">
+          <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="https://codepen.io/brandonschaaf/pen/zdPZrK" target="blank">
               <img class="img-fluid" src="img/portfolio/thumbnails/1.png" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-name">
-                    Pure-CSS
+                    Pure-CSS<br>Design
                   </div>
                 </div>
               </div>
             </a>
-            <p class="portfolioText">Gary Gregory, the Pure-CSS Ghost</p>
+            <a href="https://codepen.io/brandonschaaf/pen/zdPZrK"><p class="portfolioText" target="blank">Gary Gregory:<br>The Pure-CSS Ghost</p></a>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="https://thevcr-70bca.firebaseapp.com/index.html">
+          <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="https://thevcr-70bca.firebaseapp.com/index.html" target="blank">
               <img class="img-fluid" src="img/portfolio/thumbnails/2.png" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-name">
-                    Static HTML/CSS Store
+                    Static<br>HTML/CSS<br>Store
                   </div>
                 </div>
               </div>
             </a>
-            <p class="portfolioText">THE VCR: Family Media Conversion</p>
+            <a href="https://thevcr-70bca.firebaseapp.com/index.html"><p class="portfolioText" target="blank">THE VCR:<br>Family Media Conversion</p></a>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="">
+          <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="" target="blank">
               <img class="img-fluid" src="img/portfolio/thumbnails/3.png" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-name">
-                  An API App
+                  An API<br>Weather App
                   </div>
                 </div>
               </div>
             </a>
-            <p class="portfolioText">Yesterday's Weather Today</p>
+            <a href="" target="blank"><p class="portfolioText">Sun Says:<br>Weather Sentence Generator</p></a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="http://www.brandonschaaf.com" target="blank">
+              <img class="img-fluid" src="img/portfolio/thumbnails/Pinko.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="http:www.brandonschaaf.com" target="blank"><p class="portfolioText">Brandon Schaaf<br>Fine Art Portfolio</p></a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="pt-0" id="elsewhere">
-      <div class="container-fluid">
-      <div class="row">
+    <section class="pt-5" id="elsewhere">
+      <div class="container">
+        <div class="row">
           <div class="col-md-2 my-0 text-left">
-            <h1 class="headText"><b>ELSEWHERE</b></h1>
+            <h1 class="headText col-md-6 col-sm-12 pb-5"><b>ELSEWHERE</b></h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-9 text-center">
+          <a href="https://codepen.io/brandonschaaf/"><img class="px-3" src="img/codepen.png"></a>
+          <a href="https://github.com/BrandonSchaaf"><img class="px-3" src="img/github.png"></a>
+          <a href="https://www.linkedin.com/in/brandon-schaaf/"><img class="px-3" src="img/linkedin.png"></a>
+          </div>
+          <div class="col-md-3 text-left formText">
+              <b><span class="formHeader">CONTACT:</span>
+              <form action="https://formspree.io/brandonschaaf@gmail.com" method="POST">
+              <br>YOUR NAME:<br>
+              <input type="text" name="name"><br>
+              <br>YOUR E-MAIL</b><br>
+              <input type="email" name="_replyto">
+              <br><br>
+              <input type="submit" value="send" class="btn btn-primary btn-l">
+              </form>
           </div>
         </div>
         
@@ -171,6 +209,16 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
+
+<footer>
+    <div class="footer">
+        <div class="row">
+            <div class="col-md-12 text-center">
+            © 2017 Copyright: Brandon Schaaf
+            </div>
+        </div>
+    </div>
+</footer>
 
   </body>
 
