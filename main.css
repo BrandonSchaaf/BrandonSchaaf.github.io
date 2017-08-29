@@ -5,25 +5,26 @@
 }
 
 .front {
-	overflow: hidden;
-	width: 700px;
+	width: 100%;
 	position: absolute;
 	z-index: 1;
 }
 
 .back {
-	width: 700px;
-	height: 254px;
-	-webkit-transform: rotateY(-180deg);
+	width: 100%;
+	height: 100%;
+	-webkit-transform: rotateY(-170deg);
 }
 
 .info-card{
-	width: 700px;
-	height: 300px;
+	width: 100%;
+	margin-bottom: 6em;
+}
+
+.card-box{
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 0px;
-	margin-bottom: 6em;
 }
 
 .card-image{
@@ -35,16 +36,13 @@
 }
 
 .info-card:hover .front {
-	-webkit-transform: rotateY(180deg);
-}
-
-.arrow{
-	margin-top:
+	-webkit-transform: rotateY(170deg);
 }
 
 .headText{
 
 	font-size: 125px;
+	width: 100%;
 	color: tomato;
 	margin-bottom: .3em;
 }
@@ -55,22 +53,30 @@
 
 .imgBox{
 	width: 450px;
-	height: 301px;
 }
 
 .quote{
 	font-size: 10px;
-	margin-top:-6%;
+	margin-top: 15px;
 }
 
 .imgFill{
 	width: 100%;
-	height: 100%;
 }
 
 .box2{
 	width: 80%;
 	margin-left: 2em;
+}
+
+.centerGallery{
+	justify-content: center;
+}
+
+.containerWidth{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .portfolioText{
