@@ -58,7 +58,7 @@
 	font-family: Helvetica;
 	font-size: 4vw;
 	margin-bottom: 40px;
-	margin-top: 40px;
+	margin-top: 10px;
 }
 
 .skillsTitles{
@@ -71,6 +71,9 @@
 	color: #676666;
 	font-family: Helvetica;
 	font-size: 13px;
+	display: block;
+	line-height: 1em;
+	padding-bottom: 20px;
 }
 
 .imgFill{
