@@ -74,6 +74,9 @@
 	display: block;
 	line-height: 1em;
 	padding-bottom: 20px;
+	width:180px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .imgFill{
