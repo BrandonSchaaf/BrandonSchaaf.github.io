@@ -1,3 +1,25 @@
+.title-font {
+	font-size: 40px;
+	color: tomato;
+  	font-family: 'Helvetica Neue' sans-serif;
+  	text-transform: uppercase;
+  	line-height: 40px;
+}
+
+.title-font-head {
+	font-size: 50px;
+	color: tomato;
+  	font-family: 'Helvetica Neue' sans-serif;
+  	text-transform: uppercase;
+  	line-height: 40px;
+}
+
+.text {
+	font-size: 13px;
+	color: tomato;
+  	font-family: 'Helvetica Neue' sans-serif;
+}
+
 .front, .back {
 	transition: -webkit-transform 1.5s;
 	-webkit-backface-visibility: hidden;
@@ -43,9 +65,8 @@
 	width: 450px;
 }
 
-.fullName{
+.muted{
 	color:#676666;
-	font-size:14;
 }
 
 .quote{
@@ -81,6 +102,9 @@
 
 .imgFill{
 	width: 100%;
+}
+
+.rounded{
 }
 
 .centerGallery{
