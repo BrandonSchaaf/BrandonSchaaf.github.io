@@ -129,3 +129,17 @@
     padding-bottom:20px;
     font-size: 12px;
 }
+
+.project-subname {
+	padding: 0px 10px 20px 10px;
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 15px;
+	line-height: 17px;
+}
+
+.project-desc {
+	padding: 0px 20px 0px 20px;
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+}
